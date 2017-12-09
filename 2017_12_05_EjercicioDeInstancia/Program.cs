@@ -18,6 +18,7 @@ namespace _2017_12_05_EjercicioDeInstancia
             Console.WriteLine("La opción 3 es: Tanke,Healer,DPS,DPS,Tanke.");
             Console.WriteLine("La opción 4 es: Tanke,Healer,DPS,DPS,DPS.");
             Console.WriteLine("La opción 5 es: Tanke,Healer,Healer,Tanke,Tanke.");
+            Console.WriteLine("La opción 6 es: Tanke,Healer,Tanke,Tanke,Tanke.");
 
             do
             {
