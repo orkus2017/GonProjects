@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2010
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "20171121_1_PruebasBucles", "20171121_PruebasBucles\20171121_1_PruebasBucles.csproj", "{61B3759D-7366-4B68-962C-41FDFF5E3EA7}"
 EndProject
@@ -24,6 +24,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2017_12_05_EjercicioFlechaEnCarcaj", "2017_12_05_EjercicioFlechaEnCarcaj\2017_12_05_EjercicioFlechaEnCarcaj.csproj", "{4788CAAD-4EF9-4241-8150-EDEE6D6ED66F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2017_12_05_EjercicioDeInstancia", "2017_12_05_EjercicioDeInstancia\2017_12_05_EjercicioDeInstancia.csproj", "{90CDBA51-1391-466F-8149-E293E01AA7C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2017_12_12_01_PruebaConGitHub", "2017_12_12_01_PruebaConGitHub\2017_12_12_01_PruebaConGitHub.csproj", "{2D17D57F-43FA-442B-8A0B-14B341E8482B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,8 +77,15 @@ Global
 		{90CDBA51-1391-466F-8149-E293E01AA7C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{90CDBA51-1391-466F-8149-E293E01AA7C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{90CDBA51-1391-466F-8149-E293E01AA7C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D17D57F-43FA-442B-8A0B-14B341E8482B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D17D57F-43FA-442B-8A0B-14B341E8482B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D17D57F-43FA-442B-8A0B-14B341E8482B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D17D57F-43FA-442B-8A0B-14B341E8482B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8D9814B4-BF80-479F-A598-9E3165357D97}
 	EndGlobalSection
 EndGlobal
