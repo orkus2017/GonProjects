@@ -10,7 +10,7 @@ namespace _2017_12_12_01_PruebaConGitHub
     {
         static void Main(string[] args)
         {
-            PruebaDeFuncion("¡¡Hola mundo!!");
+            PruebaDeFuncion("¡¡Hola mundo!! 2");
 
             Console.ReadKey();
         }
