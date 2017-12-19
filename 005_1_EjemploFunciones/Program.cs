@@ -31,13 +31,12 @@ namespace _005_1_EjemploFunciones
             //EscribeTextoConParametros(DivisionDeEnteros(50, 10).ToString());
 
             //CalculaTodo(5, 10);
-            Calculadora calc = new Calculadora();
 
+
+            //Este es un ejemplo con un objeto de la clase Calculadora
+            //Calculadora calc = new Calculadora();
             //EscribeTextoConParametros(calc.SumaDeEnteros(1, 2).ToString());
-
-            //Este es un comentario
-
-            calc.PreguntaNumerosYCalculaTodo();
+            //calc.PreguntaNumerosYCalculaTodo();
 
             Console.ReadKey();
         }
