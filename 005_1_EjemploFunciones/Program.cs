@@ -35,6 +35,8 @@ namespace _005_1_EjemploFunciones
 
             //EscribeTextoConParametros(calc.SumaDeEnteros(1, 2).ToString());
 
+            //Este es un comentario
+
             calc.PreguntaNumerosYCalculaTodo();
 
             Console.ReadKey();
@@ -45,6 +47,7 @@ namespace _005_1_EjemploFunciones
             Console.WriteLine();
             Console.WriteLine("Hola Gon");
             Console.WriteLine();
+            Console.WriteLine();
         }
 
         static void EscribeTextoConParametros(string texto)
@@ -52,6 +55,7 @@ namespace _005_1_EjemploFunciones
             // Esta funcion te escribe lo que le pasas en texto
             Console.WriteLine();
             Console.WriteLine("El texto es: " + texto);
+            Console.WriteLine("Escribo otra vez: " + texto);
             Console.WriteLine();
         }
 
