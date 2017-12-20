@@ -31,7 +31,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "005_1_EjemploFunciones", "0
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "005_2_EjerciciosFunciones", "005_2_EjerciciosFunciones\005_2_EjerciciosFunciones.csproj", "{59B5D7A8-B55F-4CFB-86C9-744718F4CE71}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CambiadorLineaExcel", "005_3_Ejemplo_Fer_CambiadorLineaExcel\CambiadorLineaExcel.csproj", "{9A2C4301-8CEB-4DDC-82D3-E8725621026B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "005_3_Ejemplo_Fer_CambiadorLineaExcel", "005_3_Ejemplo_Fer_CambiadorLineaExcel\005_3_Ejemplo_Fer_CambiadorLineaExcel.csproj", "{9A2C4301-8CEB-4DDC-82D3-E8725621026B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
