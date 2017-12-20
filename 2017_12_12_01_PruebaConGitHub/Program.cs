@@ -12,6 +12,8 @@ namespace _2017_12_12_01_PruebaConGitHub
         {
             PruebaDeFuncion("¡¡Hola mundo!! 2");
 
+            Console.WriteLine("Esto es otra prueba...");
+
             Console.ReadKey();
         }
 
