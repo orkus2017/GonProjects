@@ -10,7 +10,9 @@ namespace Patrones_001_Singleton
     {
         //Al ser static, solo puede haber uno
         private static Singleton _singleton;
-        private static int contador;
+
+        //Estas ya son variables propias del objeto. Así se ve que solo hay uno por mucho que lo llamemos.
+        private int contador;
 
         //Constructoor privado
         private Singleton()

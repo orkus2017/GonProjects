@@ -36,6 +36,8 @@ namespace Patrones_001_Singleton
                 Console.WriteLine(mensaje);
             }
 
+            Console.WriteLine();
+            Console.WriteLine("Pulsa una tecla para terminar...");
             Console.ReadKey();
         }
     }
