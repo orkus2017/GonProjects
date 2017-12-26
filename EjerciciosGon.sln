@@ -35,6 +35,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "005_3_Ejemplo_Fer_Cambiador
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Patrones_001_Singleton", "Patrones_001_Singleton\Patrones_001_Singleton.csproj", "{5C763E23-053B-41E5-8E14-DC4FABFD5054}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Patrones_002_Factory_Method", "Patrones_002_Factory_Method\Patrones_002_Factory_Method.csproj", "{2DB3CD7C-588B-4702-B6FE-D291929F1ADE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -237,6 +239,18 @@ Global
 		{5C763E23-053B-41E5-8E14-DC4FABFD5054}.Release|x64.Build.0 = Release|Any CPU
 		{5C763E23-053B-41E5-8E14-DC4FABFD5054}.Release|x86.ActiveCfg = Release|Any CPU
 		{5C763E23-053B-41E5-8E14-DC4FABFD5054}.Release|x86.Build.0 = Release|Any CPU
+		{2DB3CD7C-588B-4702-B6FE-D291929F1ADE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DB3CD7C-588B-4702-B6FE-D291929F1ADE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DB3CD7C-588B-4702-B6FE-D291929F1ADE}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{2DB3CD7C-588B-4702-B6FE-D291929F1ADE}.Debug|x64.Build.0 = Debug|Any CPU
+		{2DB3CD7C-588B-4702-B6FE-D291929F1ADE}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{2DB3CD7C-588B-4702-B6FE-D291929F1ADE}.Debug|x86.Build.0 = Debug|Any CPU
+		{2DB3CD7C-588B-4702-B6FE-D291929F1ADE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DB3CD7C-588B-4702-B6FE-D291929F1ADE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DB3CD7C-588B-4702-B6FE-D291929F1ADE}.Release|x64.ActiveCfg = Release|Any CPU
+		{2DB3CD7C-588B-4702-B6FE-D291929F1ADE}.Release|x64.Build.0 = Release|Any CPU
+		{2DB3CD7C-588B-4702-B6FE-D291929F1ADE}.Release|x86.ActiveCfg = Release|Any CPU
+		{2DB3CD7C-588B-4702-B6FE-D291929F1ADE}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
