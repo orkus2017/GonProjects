@@ -25,13 +25,13 @@ namespace Patrones_002_Factory_Method
     {
         static void Main(string[] args)
         {
+            ComputerFactory factory = null;
+
             //Ejemplo 1
 
-            //ComputerFactory factory = new ConcreteComputerFactory();
+            //factory = new ConcreteComputerFactory();
 
             //Ejemplo 2
-
-            ComputerFactory factory = null;
 
             Console.WriteLine("Elige un tipo:");
             Console.WriteLine();
@@ -44,6 +44,8 @@ namespace Patrones_002_Factory_Method
                 factory = new ConcreteComputerFactory();
             else
                 factory = new BrandXFactory();
+
+            //Esto es común a ambos ejemplos
 
             new ComputerAssembler().AssembleComputer(factory);
 
