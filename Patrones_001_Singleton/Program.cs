@@ -4,8 +4,8 @@
 //  Creado: 22-12-2017
 //  Ejercicio de estudio de Patrones de Diseño: Singleton
 //  El objetivo es aprender de que va y usar este patrón
-//  
-//  Scrumming en: https://gonprojects.visualstudio.com
+//
+//  Scrumming: https://gonprojects.visualstudio.com
 //
 //////////////////////////////////////////////////////////////////////////////
 

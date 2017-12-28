@@ -5,11 +5,9 @@
 //  Ejercicio de estudio de Patrones de Diseño: Factory Method
 //  El objetivo es aprender de que va y usar este patrón
 //
-//  Sacado de:
-//
-//  https://msdn.microsoft.com/en-us/library/ee817667.aspx
+//  Encontrado: https://msdn.microsoft.com/en-us/library/ee817667.aspx
 //  
-//  Scrumming en: https://gonprojects.visualstudio.com
+//  Scrumming: https://gonprojects.visualstudio.com
 //
 //////////////////////////////////////////////////////////////////////////////
 

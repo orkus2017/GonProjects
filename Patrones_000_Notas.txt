@@ -1,0 +1,50 @@
+//////////////////////////////////////////////////////////////////////////////
+//
+//  Cuaderno de bitácora
+//  Notas varias a los proyectos de patrones de diseño
+//  Creado: 28-12-2017
+//
+//////////////////////////////////////////////////////////////////////////////
+
+>>28.12.17 Jueves, 10:55
+
+El objetivo de los proyectos de patrones de diseño es intentar aprender de que tratan los patrones de diseño más comunes. 
+También se busca memorizar la forma de implementarlos con C#.
+Son de mucha ayuda en programación. 
+Con frecuencia se pregunta por ellos en entrevistas de trabajo.
+
+Estos patrones, los más generales (http://www.dofactory.com) son:
+
+Creational Patterns:
+
+Abstract Factory
+Builder
+Factory Method
+Prototype
+Singleton
+
+Structural Patterns:
+
+Adapter
+Bridge
+Composite
+Decorator
+Facade
+Flyweight
+Proxy
+
+Behavioral Patterns:
+
+Chain of Resp.
+Command
+Interpreter
+Iterator
+Mediator
+Memento
+Observer
+State
+Strategy
+Template Method
+Visitor
+
+Son 23 patrones. Aunque hay más, estos son los más estándar.
