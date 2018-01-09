@@ -42,13 +42,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BrandXComputer.cs" />
-    <Compile Include="BrandXFactory.cs" />
-    <Compile Include="Computer.cs" />
-    <Compile Include="ComputerAssembler.cs" />
-    <Compile Include="ComputerFactory.cs" />
-    <Compile Include="ConcreteComputer.cs" />
-    <Compile Include="ConcreteComputerFactory.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

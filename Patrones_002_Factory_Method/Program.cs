@@ -58,4 +58,84 @@ namespace Patrones_002_Factory_Method
             Console.ReadKey();
         }
     }
+
+    class BrandXComputer : Computer
+    {
+
+        int _mhz = 1500;
+
+        public override int Mhz
+        {
+
+            get { return _mhz; }
+
+        }//Mhz
+
+    }//BrandXComputer
+
+    class BrandXFactory : ComputerFactory
+    {
+
+        public override Computer GetComputer()
+        {
+
+            return new BrandXComputer();
+
+        }//GetComputer
+
+    }//BrandXFactory
+
+    abstract class Computer
+    {
+
+        public abstract int Mhz { get; }
+
+    }//Computer
+
+    class ComputerAssembler
+    {
+
+        public void AssembleComputer(ComputerFactory factory)
+        {
+
+            Computer computer = factory.GetComputer();
+            Console.WriteLine("assembled a {0} running at {1} MHz",
+               computer.GetType().FullName, computer.Mhz);
+
+        }//AssembleComputer
+
+    }//ComputerAssembler
+
+    abstract class ComputerFactory
+    {
+
+        public abstract Computer GetComputer();
+
+    }//ComputerFactory
+
+    class ConcreteComputer : Computer
+    {
+
+        int _mhz = 500;
+
+        public override int Mhz
+        {
+
+            get { return _mhz; }
+
+        }//Mhz
+
+    }//ConcreteComputer
+
+    class ConcreteComputerFactory : ComputerFactory
+    {
+
+        public override Computer GetComputer()
+        {
+
+            return new ConcreteComputer();
+
+        }//GetComputer
+
+    }//ConcreteComputerFactory
 }
