@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{9BA86E02-8A2F-40A8-BBEF-6F5C9D01D20D}</ProjectGuid>
+    <ProjectGuid>{5454BA9C-C677-4BD8-AF8A-1C4285CFAC2E}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Patrones_006_Observer</RootNamespace>
-    <AssemblyName>Patrones_006_Observer</AssemblyName>
+    <RootNamespace>Patrones_BP_Iterator</RootNamespace>
+    <AssemblyName>Patrones_BP_Iterator</AssemblyName>
     <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

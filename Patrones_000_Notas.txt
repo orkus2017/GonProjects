@@ -3,48 +3,83 @@
 //  Cuaderno de bitácora
 //  Notas varias a los proyectos de patrones de diseño
 //  Creado: 28-12-2017
+//	Por Ferny
 //
 //////////////////////////////////////////////////////////////////////////////
 
->>28.12.17 Jueves, 10:55
+>>28.12.17 Jueves 10:55 
 
 El objetivo de los proyectos de patrones de diseño es intentar aprender de que tratan los patrones de diseño más comunes. 
 También se busca memorizar la forma de implementarlos con C#.
 Son de mucha ayuda en programación. 
 Con frecuencia se pregunta por ellos en entrevistas de trabajo.
 
-Estos patrones, los más generales (http://www.dofactory.com) son:
+Estos patrones (nombre-frecuencia), los más generales (http://www.dofactory.com) son:
 
-Creational Patterns:
+Creational Patterns (CP):
 
-Abstract Factory
-Builder
-Factory Method
-Prototype
-Singleton
+Abstract Factory - 5
+Builder - 2
+Factory Method - 5
+Prototype - 3
+Singleton - 4
 
-Structural Patterns:
+Structural Patterns (SP):
 
-Adapter
-Bridge
-Composite
-Decorator
-Facade
-Flyweight
-Proxy
+Adapter - 4
+Bridge - 3
+Composite - 4
+Decorator - 3
+Facade - 5
+Flyweight - 1
+Proxy - 4
 
-Behavioral Patterns:
+Behavioral Patterns (BP):
 
-Chain of Resp.
-Command
-Interpreter
-Iterator
-Mediator
-Memento
-Observer
-State
-Strategy
-Template Method
-Visitor
+Chain of Responsability - 2
+Command - 4
+Interpreter - 1
+Iterator - 5
+Mediator - 2
+Memento - 1
+Observer - 5
+State - 3
+Strategy - 4
+Template Method - 3
+Visitor - 1
 
 Son 23 patrones. Aunque hay más, estos son los más estándar.
+
+La "Frecuencia de uso" nos da una pista del orden de estudio en función de los más y los menos usados siendo 1 los menos y 5 los más.
+
+Ordenados por Frecuencia de Uso, para estudiar en ese orden:
+
+Abstract Factory - 5
+Factory Method - 5
+Singleton - 4
+Prototype - 3
+Builder - 2
+
+Structural Patterns (SP):
+
+Facade - 5
+Adapter - 4
+Composite - 4
+Proxy - 4
+Bridge - 3
+Decorator - 3
+Flyweight - 1
+
+Behavioral Patterns (BP):
+
+Observer - 5
+Iterator - 5
+Strategy - 4
+Command - 4
+State - 3
+Template Method - 3
+Chain of Responsability - 2
+Mediator - 2
+Interpreter - 1
+Memento - 1
+Visitor - 1

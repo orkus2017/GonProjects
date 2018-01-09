@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // La información general de un ensamblado se controla mediante el siguiente 
 // conjunto de atributos. Cambie estos valores de atributo para modificar la información
 // asociada con un ensamblado.
-[assembly: AssemblyTitle("Patrones_006_Observer")]
+[assembly: AssemblyTitle("PatronesCP_004_Prototype")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Patrones_006_Observer")]
+[assembly: AssemblyProduct("PatronesCP_004_Prototype")]
 [assembly: AssemblyCopyright("Copyright ©  2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // El siguiente GUID sirve como id. de typelib si este proyecto se expone a COM.
-[assembly: Guid("9ba86e02-8a2f-40a8-bbef-6f5c9d01d20d")]
+[assembly: Guid("349e9af9-a6cd-40cb-9704-b980d2afd5e7")]
 
 // La información de versión de un ensamblado consta de los cuatro valores siguientes:
 //

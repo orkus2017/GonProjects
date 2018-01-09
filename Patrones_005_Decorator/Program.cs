@@ -9,6 +9,14 @@
 //  
 //  Scrumming: https://gonprojects.visualstudio.com
 //
+//  Attach additional responsibilities to an object dynamically.
+//  Decorators provide a flexible alternative to subclassing for extending functionality.
+//  
+//  Frecuencia de uso (1-5): 3
+//
+//  This real-world code demonstrates the Decorator pattern in which 'borrowable' 
+//  functionality is added to existing library items(books and videos).
+//
 //////////////////////////////////////////////////////////////////////////////
 
 using System;

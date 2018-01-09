@@ -1,0 +1,12 @@
+//////////////////////////////////////////////////////////////////////////////
+//
+//  Por Ferny
+//  Creado: 28-12-2017
+//  Ejercicio de estudio de Patrones de Diseño: Observer
+//  El objetivo es aprender de que va y usar este patrón
+//
+//  Encontrado: http://www.dofactory.com/net/observer-design-pattern
+//  
+//  Scrumming: https://gonprojects.visualstudio.com
+//
+//////////////////////////////////////////////////////////////////////////////

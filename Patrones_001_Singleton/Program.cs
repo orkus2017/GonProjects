@@ -5,7 +5,14 @@
 //  Ejercicio de estudio de Patrones de Diseño: Singleton
 //  El objetivo es aprender de que va y usar este patrón
 //
+//  Hecho entrero por Ferny
+//  Otro ejemplo: http://www.dofactory.com/net/prototype-design-pattern
+//
 //  Scrumming: https://gonprojects.visualstudio.com
+//  
+//  Ensure a class has only one instance and provide a global point of access to it.
+//  
+//  Frecuencia de uso (1-5): 4
 //
 //////////////////////////////////////////////////////////////////////////////
 

@@ -6,8 +6,14 @@
 //  El objetivo es aprender de que va y usar este patrón
 //
 //  Encontrado: https://msdn.microsoft.com/en-us/library/ee817667.aspx
+//  Más información: http://www.dofactory.com/net/factory-method-design-pattern
 //  
 //  Scrumming: https://gonprojects.visualstudio.com
+//
+//  Define an interface for creating an object, but let subclasses decide which 
+//  class to instantiate.Factory Method lets a class defer instantiation to subclasses.
+//  
+//  Frecuencia de uso (1-5): 5
 //
 //////////////////////////////////////////////////////////////////////////////
 
