@@ -14,8 +14,8 @@
 //  
 //  Frecuencia de uso (1-5): 5
 //
-//  This real-world code demonstrates the Memento pattern which temporarily 
-//  saves and then restores the SalesProspect's internal state.
+//  This structural code demonstrates the Observer pattern in which registered 
+//  objects are notified of and updated with a state change.
 //
 //////////////////////////////////////////////////////////////////////////////
 
