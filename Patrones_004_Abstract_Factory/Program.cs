@@ -103,11 +103,12 @@ namespace Patrones_004_Abstract_Factory
 
     abstract class Carnivore
     {
-        public abstract void Eat(Herbivore h);
+        public abstract void Eat(Herbivore herbivore);
     }
 
     /// <summary>
     /// The 'ProductA1' class
+    /// Wildebeest: es un Ñu
     /// </summary>
 
     class Wildebeest : Herbivore
@@ -120,16 +121,16 @@ namespace Patrones_004_Abstract_Factory
 
     class Lion : Carnivore
     {
-        public override void Eat(Herbivore h)
+        public override void Eat(Herbivore herbivore)
         {
             // Eat Wildebeest
 
             Console.WriteLine(this.GetType().Name +
-              " eats " + h.GetType().Name);
+              " eats " + herbivore.GetType().Name);
         }
     }
 
-    /// <summary>
+    /// <summary>+
     /// The 'ProductA2' class
     /// </summary>
 
@@ -143,12 +144,12 @@ namespace Patrones_004_Abstract_Factory
 
     class Wolf : Carnivore
     {
-        public override void Eat(Herbivore h)
+        public override void Eat(Herbivore herbivore)
         {
             // Eat Bison
 
             Console.WriteLine(this.GetType().Name +
-              " eats " + h.GetType().Name);
+              " eats " + herbivore.GetType().Name);
         }
     }
 
