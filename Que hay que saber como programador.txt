@@ -1,0 +1,24 @@
+////////////////////////////////////////////////////////////////////////////////
+//
+//  Cosas a aprender
+//  Sacado del artículo del libro "http://www.etnassoft.com/2011/07/14/tu-no-sabes-programar/"
+//  Creado: 20-02-2018
+//	Por Ferny
+//
+////////////////////////////////////////////////////////////////////////////////
+
+Patrones de Diseño: Deberías ser capaz de hablar y comentar cada uno de los 24 patrones 
+presentes en el  Libro GOF y la mayoría de los que se recogen en la colección POSA. 
+Estamos hablando aquí de ser capaces de reproducirlos de memoria y de entablar una 
+discusión sobre cómo funcionan.
+
+Principios de Diseño: Debes conocer el principio SOLID y todos los conceptos que implica.
+
+Metodologías: Debes entender XP, Scrum, Lean, Kanban, Cascada (Waterfall), Diseño Estructurado 
+y Análisis Estructurado.
+
+Disciplinas: Debes practicar TDD, diseño y programación orientada a objetos (POO), 
+Programación Estructurada, Integración Continua y Programación en Pareja.
+
+Herramientas: Debes conocer como usar: UML, Diagramas de Flujos de Datos (DFDs), Diagramas 
+de Estructuras Compuestas, Red de Petri, Diagramas de Estado y Árboles de Decisión.

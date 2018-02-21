@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27004.2006
+VisualStudioVersion = 15.0.27004.2010
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "20171121_1_PruebasBucles", "20171121_PruebasBucles\20171121_1_PruebasBucles.csproj", "{61B3759D-7366-4B68-962C-41FDFF5E3EA7}"
 EndProject
@@ -45,8 +45,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Patrones_SP_Decorator", "Pa
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Notas", "Notas", "{CC2F1E9E-82BE-4898-9C9B-CBEEFA422578}"
 	ProjectSection(SolutionItems) = preProject
+		Codigo limpio.txt = Codigo limpio.txt
 		ComentarioCabeceraEstandar.txt = ComentarioCabeceraEstandar.txt
 		Patrones_000_Notas.txt = Patrones_000_Notas.txt
+		Que hay que saber como programador.txt = Que hay que saber como programador.txt
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Patrones_CP_Prototype", "PatronesCP_004_Prototype\Patrones_CP_Prototype.csproj", "{349E9AF9-A6CD-40CB-9704-B980D2AFD5E7}"

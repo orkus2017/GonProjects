@@ -1,0 +1,74 @@
+////////////////////////////////////////////////////////////////////////////////
+//
+//  Codigo Limpio
+//  Notas esquematicas sobre el contenido del libro: Codigo Limpio, 
+//		por Robert C. Martin - 2009.
+//  Creado: 20-02-2018
+//	Por Ferny
+//
+////////////////////////////////////////////////////////////////////////////////
+
+>> Nombres con sentido:
+
+	- Usar nombres que revelen las intenciones.
+	- Evitar la desinformación: Evitar dejar pistas falsas que dificulten el significado del código.
+	- Realizar distinciones con sentido: Si los nombres tienen que ser distintos también tienen que tener un 
+		significado diferente. Los nombres de series numéricas (a1, a2, ...) son lo contrario
+		a los nomrbes intencionados. Las palabras adicionales son otra distinción sin sentido.
+	- Usar nombres que se puedan pronunciar.
+	- Usar nombres que se puedan buscar.
+	- Evitar codificaciones. Ya que descodificarlo implica esfuerzo adicional.
+	- No usar notación húngara: En la actualidad la NH y otras formas de codificación de tipos
+		no son más que un impedimento.
+	- No usar prefijos de miembros: No es necesario añadir m_ como prefijo a los nombres de variables.
+	- Interfaces e implementación: Evitar usar IInterfaz para estas. Mejor decir Interfaz e InterfazImp 
+		para la implementación.
+	- No usar asignaciones mentales: no usar m o z o y cuando se quiere decir 'registro', objetoX, etc.
+
+Una diferencia entre un programador inteligente y un programador profesional es que este último sabe que
+la claridad es lo que importa. Los profesionales usan sus poderes para hacer el bien y crear código que 
+otros puedan entender.
+
+	- Nombres de clases: Evite palabras como Manager, Processor, Data, Info en el nombre de una clase (¿motor?)
+		El nombre de una clase no debe ser un verbo.
+	- Nombres de métodos: Los métodos deben tener nombres de verbo. Los métodos de acceso, de modificación y
+		los predicados deben tener como nombre su valor y usar como prefijo get, set e is. Al sobrecargar
+		constructores, use métodos de factoría estáticos con nombres que describan los argumentos. Refuerce
+		su uso convirtiendo en privados sus constructores correspondientes.
+	- No se exceda con el atractivo: Opte por la claridad antes que por el entretenimiento.
+	- Una palabra por concepto: Elija una palabra por cada concepto abstracto y manténgala. Use léxico coherente.
+	- No haga juegos de palabras: Evite usar la misma palabra con dos fines distintos.
+	- Usar nombres de dominios para soluciones: Use términos informáticos algoritmos, nombres de patrones, 
+		términos mátemáticos y demás. Ej: El nombre AccountVisitor tiene mucho significaco para un 
+		programador familiarizado con el patron Visitor.
+	- Usar nombres de dominios de problemas: Cuando no exista un término de programación para lo que esté
+		haciendo use el nombre del dominio de problemas. Separar los conceptos de dominio de soluciones y de 
+		problemas es parte del trabajo de un buen programador y diseñador.
+	- Añadir contexto con sentido: Algunos nombres tienen significado por sí mismos, pero la mayóría
+		no,. Por ello debe incluirnos en un contexto, en clases, funciones y espacios de nombres con 
+		nombres adecuados.
+	- No añadir contextos innecesarios.
+
+>> Funciones:
+
+	- Tamaño reducido: Cuantas menos líneas mejor. Si cabe en la pantalla mejor, si cabe en media pantalla mejor. 
+		Si ocupa 3 o 4 líneas mucho mejor.
+	- Bloques y sangrado: El nivel de sangrado de una función no debe ser mayor de uno o dos.
+	- Hacer una cosa: Las funciones sólo deben hacer una cosa. Deben hacerlo bien y debe ser lo único que hagan.
+	- Secciones en funciones: Las funciones que hacen una sola cosa no se pueden dividir en secciones. Por ej:
+		declaraciones, inicializaciones y filtros.
+	- Un nivel de abstracción por función.
+	- Leer código de arriba abajo: la regla descendente.
+	- Instrucciones switch: No siempre podemos evitar las instrucciones switch pero podemos asegurarnos de 
+		incluirlas en un nivel inferior y de no repetirlas. Recurrir al polimorfismo. Ocultar la función 
+		switch en una factoría abstracta.
+	- Usar nombres descriptivos.
+	- Argumentos: El número ideal es de cero. Después uno (monádico) y dos (diádico). Siempre que sea posible
+		evite la presencia de tres argumentos (triádico). Los argumentos son todavía más complicados desde un
+		punto de vista de pruebas.
+	- Formas monádicas habituales: Pregunta sobre el argumento y procesar el argumento.
+
+
+
+
+
