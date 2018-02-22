@@ -8,18 +8,17 @@
 //
 ////////////////////////////////////////////////////////////////////////////////
 
->> Nombres con sentido:
+>> Capítulo 1: Nombres con sentido:
 
 	- Usar nombres que revelen las intenciones.
 	- Evitar la desinformación: Evitar dejar pistas falsas que dificulten el significado del código.
 	- Realizar distinciones con sentido: Si los nombres tienen que ser distintos también tienen que tener un 
 		significado diferente. Los nombres de series numéricas (a1, a2, ...) son lo contrario
-		a los nomrbes intencionados. Las palabras adicionales son otra distinción sin sentido.
+		a los nomrbes intencionados. Las palabras adicionales innecesarias son otra distinción sin sentido.
 	- Usar nombres que se puedan pronunciar.
 	- Usar nombres que se puedan buscar.
-	- Evitar codificaciones. Ya que descodificarlo implica esfuerzo adicional.
-	- No usar notación húngara: En la actualidad la NH y otras formas de codificación de tipos
-		no son más que un impedimento.
+	- Evitar codificaciones: Descodificar implica esfuerzo adicional.
+	- No usar Notación Húngara: En la actualidad es más que un impedimento.
 	- No usar prefijos de miembros: No es necesario añadir m_ como prefijo a los nombres de variables.
 	- Interfaces e implementación: Evitar usar IInterfaz para estas. Mejor decir Interfaz e InterfazImp 
 		para la implementación.
@@ -44,12 +43,12 @@ otros puedan entender.
 	- Usar nombres de dominios de problemas: Cuando no exista un término de programación para lo que esté
 		haciendo use el nombre del dominio de problemas. Separar los conceptos de dominio de soluciones y de 
 		problemas es parte del trabajo de un buen programador y diseñador.
-	- Añadir contexto con sentido: Algunos nombres tienen significado por sí mismos, pero la mayóría
-		no,. Por ello debe incluirnos en un contexto, en clases, funciones y espacios de nombres con 
+	- Añadir contexto con sentido: Algunos nombres tienen significado por sí mismos, pero la mayóría no. 
+		Por ello debe incluirnos en un contexto, en clases, funciones y espacios de nombres con 
 		nombres adecuados.
 	- No añadir contextos innecesarios.
 
->> Funciones:
+>> Capítulo 2: Funciones:
 
 	- Tamaño reducido: Cuantas menos líneas mejor. Si cabe en la pantalla mejor, si cabe en media pantalla mejor. 
 		Si ocupa 3 o 4 líneas mucho mejor.
@@ -64,9 +63,11 @@ otros puedan entender.
 		switch en una factoría abstracta.
 	- Usar nombres descriptivos.
 	- Argumentos: El número ideal es de cero. Después uno (monádico) y dos (diádico). Siempre que sea posible
-		evite la presencia de tres argumentos (triádico). Los argumentos son todavía más complicados desde un
-		punto de vista de pruebas.
-	- Formas monádicas habituales: Pregunta sobre el argumento y procesar el argumento.
+		evite la presencia de tres argumentos (triádico). No haga funciones con más de 3 argumentos. 
+		Los argumentos son todavía más complicados desde un punto de vista de pruebas.
+	- Formas monádicas habituales: 
+		1) Pregunta sobre el argumento.
+		2) procesar el argumento.
 
 
 
