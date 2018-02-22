@@ -3,7 +3,7 @@
 //  Cosas a aprender
 //  Sacado del artículo del libro "http://www.etnassoft.com/2011/07/14/tu-no-sabes-programar/"
 //  Creado: 20-02-2018
-//	Por Ferny
+//	Por Ferny	fromero1974@hotmail.com
 //
 ////////////////////////////////////////////////////////////////////////////////
 

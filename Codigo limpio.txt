@@ -4,7 +4,7 @@
 //  Notas esquematicas sobre el contenido del libro: Codigo Limpio, 
 //		por Robert C. Martin - 2009.
 //  Creado: 20-02-2018
-//	Por Ferny
+//	Por Ferny	fromero1974@hotmail.com
 //
 ////////////////////////////////////////////////////////////////////////////////
 
@@ -18,7 +18,7 @@
 	- Usar nombres que se puedan pronunciar.
 	- Usar nombres que se puedan buscar.
 	- Evitar codificaciones: Descodificar implica esfuerzo adicional.
-	- No usar Notación Húngara: En la actualidad es más que un impedimento.
+	- No usar Notación Húngara: En la actualidad no es más que un impedimento.
 	- No usar prefijos de miembros: No es necesario añadir m_ como prefijo a los nombres de variables.
 	- Interfaces e implementación: Evitar usar IInterfaz para estas. Mejor decir Interfaz e InterfazImp 
 		para la implementación.
@@ -43,7 +43,7 @@ otros puedan entender.
 	- Usar nombres de dominios de problemas: Cuando no exista un término de programación para lo que esté
 		haciendo use el nombre del dominio de problemas. Separar los conceptos de dominio de soluciones y de 
 		problemas es parte del trabajo de un buen programador y diseñador.
-	- Añadir contexto con sentido: Algunos nombres tienen significado por sí mismos, pero la mayóría no. 
+	- Añadir contexto con sentido: Algunos nombres tienen significado por sí mismos, pero la mayoría no. 
 		Por ello debe incluirnos en un contexto, en clases, funciones y espacios de nombres con 
 		nombres adecuados.
 	- No añadir contextos innecesarios.
@@ -62,8 +62,8 @@ otros puedan entender.
 		incluirlas en un nivel inferior y de no repetirlas. Recurrir al polimorfismo. Ocultar la función 
 		switch en una factoría abstracta.
 	- Usar nombres descriptivos.
-	- Argumentos: El número ideal es de cero. Después uno (monádico) y dos (diádico). Siempre que sea posible
-		evite la presencia de tres argumentos (triádico). No haga funciones con más de 3 argumentos. 
+	- Argumentos: El número ideal es 0. Después 1 (monádico) y 2 (diádico). Siempre que sea posible
+		evite la presencia de 3 argumentos (triádico). No haga funciones con más de 3 argumentos. 
 		Los argumentos son todavía más complicados desde un punto de vista de pruebas.
 	- Formas monádicas habituales: 
 		1) Pregunta sobre el argumento.

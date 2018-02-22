@@ -1,6 +1,6 @@
 ////////////////////////////////////////////////////////////////////////////////
 //
-//  Por Ferny
+//	Por Ferny	fromero1974@hotmail.com
 //  Creado: 28-12-2017
 //  Ejercicio de estudio de Patrones de Diseño: Observer
 //  El objetivo es aprender de que va y usar este patrón

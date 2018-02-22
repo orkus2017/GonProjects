@@ -3,7 +3,7 @@
 //  Cuaderno de bitácora
 //  Notas varias a los proyectos de patrones de diseño
 //  Creado: 28-12-2017
-//	Por Ferny
+//	Por Ferny	fromero1974@hotmail.com
 //
 ////////////////////////////////////////////////////////////////////////////////
 
